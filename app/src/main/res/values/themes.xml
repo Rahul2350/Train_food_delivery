@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+
+    <style name="Theme.Train_food_delivery" parent="Theme.AppCompat.Light.NoActionBar" />
+    <style name="circle">
+        <item name="cornerSize">70%</item>
+    </style>
+
+    <style name="ratingbar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#8E8B8B</item>
+        <item name="colorControlActivated">#F41F4D</item>
+    </style>
+
+</resources>

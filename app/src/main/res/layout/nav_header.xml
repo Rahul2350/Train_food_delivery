@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background = "#FF714E">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/headpc"
+        android:layout_width="159dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/navpic2" />
+
+    <TextView
+        android:id="@+id/headername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back!"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop = "30dp"
+        android:background="@color/black"
+
+        />
+
+</LinearLayout>

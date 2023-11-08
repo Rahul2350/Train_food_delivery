@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<uses-permission android:name="android.permission.INTERNET">
+
+</uses-permission>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/navpic2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/navpic2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Train_food_delivery"
+        tools:targetApi="31">
+        <activity
+            android:name=".rateus"
+            android:exported="false" />
+        <activity
+            android:name=".desserts"
+            android:exported="false" />
+        <activity
+            android:name=".chinese"
+            android:exported="false" />
+        <activity
+            android:name=".drinks"
+            android:exported="false" />
+        <activity
+            android:name=".thali"
+            android:exported="false" />
+        <activity
+            android:name=".burger"
+            android:exported="false" />
+        <activity
+            android:name=".Pizza"
+            android:exported="false" />
+        <activity
+            android:name=".orderConfirm"
+            android:exported="false" />
+        <activity
+            android:name=".ConfirmDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Checkout"
+            android:exported="false" />
+        <activity
+            android:name=".Cart"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".forgotpassword"
+            android:exported="false" />
+        <activity
+            android:name=".login_screen"
+            android:exported="false" />
+        <activity
+            android:name=".signup_screen"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

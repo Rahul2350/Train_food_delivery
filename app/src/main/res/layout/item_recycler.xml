@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="#CEFF5B28"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="15dp"
+    android:layout_height="290dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/foodimage"
+            android:layout_width="match_parent"
+            android:layout_height="164dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat="@drawable/pizza" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/foodname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Veg-Loaded Pizza"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:textSize="30sp" />
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/resname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dominoz"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:textSize="22sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/foodprice"
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="120"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/addcart"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#D32F2F"
+                android:text="ADD+"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
